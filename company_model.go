@@ -37,8 +37,8 @@ type Company struct {
 	HsAnalyticsLatestSourceData1            *HsStr  `json:"hs_analytics_latest_source_data_1,omitempty"`
 	HsAnalyticsLatestSourceData2            *HsStr  `json:"hs_analytics_latest_source_data_2,omitempty"`
 	HsAnalyticsLatestSourceTimestamp        *HsTime `json:"hs_analytics_latest_source_timestamp,omitempty"`
-	HsAnalyticsNumPageViews                 *HsInt  `json:"hs_analytics_num_page_views,omitempty"`
-	HsAnalyticsNumVisits                    *HsInt  `json:"hs_analytics_num_visits,omitempty"`
+	HsAnalyticsNumPageViews                 *HsStr  `json:"hs_analytics_num_page_views,omitempty"`
+	HsAnalyticsNumVisits                    *HsStr  `json:"hs_analytics_num_visits,omitempty"`
 	HsAnalyticsSource                       *HsStr  `json:"hs_analytics_source,omitempty"`
 	HsAnalyticsSourceData1                  *HsStr  `json:"hs_analytics_source_data_1,omitempty"`
 	HsAnalyticsSourceData2                  *HsStr  `json:"hs_analytics_source_data_2,omitempty"`
